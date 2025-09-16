@@ -1,12 +1,13 @@
-import { useState } from 'react'
 import './App.css'
-import FeedbackForm from './assets/FeedbackForm'
+import CommentList from './components/CommentList'
 
 function App() {
 
   return (
     <>
-      <FeedbackForm />
+      <div className="App">
+        <CommentList />
+      </div>
     </>
   )
 }
