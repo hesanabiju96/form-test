@@ -1,12 +1,11 @@
-import { useState } from 'react'
 import './App.css'
-import FeedbackForm from './assets/FeedbackForm'
+import EcommerceApp from './components/EcommerceApp'
 
 function App() {
 
   return (
     <>
-      <FeedbackForm />
+      <EcommerceApp />
     </>
   )
 }
